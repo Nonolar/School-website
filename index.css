@@ -16,7 +16,7 @@ svg{
 .TextCon{
 	position: sticky;
 	
-	top: 25px;
+	top: 10vw;
 	
 	z-index: 1;
 }
@@ -45,6 +45,7 @@ svg{
 	
 	color: #ffffff;
 	
+	padding-bottom: 5vw;
 	
 	z-index: 2;
 
@@ -61,6 +62,7 @@ svg{
 	vertical-align: middle;
 	
 	margin-top: 25vw;
+	
 }
 
 .infoSeg p{
@@ -122,6 +124,17 @@ svg{
 	height: auto;
 }
 
+.footer{
+	height: 101vh;
+	width: 100vw;
+}
+
+.footer p{
+	
+	display: inline;
+	font-size: 25vh;
+}
+
 path{
 	fill: #000000;
 }
@@ -151,10 +164,24 @@ path{
   }
   
   .infoSeg{
-	font-size: 2vw;
+	font-size: 5vw;
   }
+  
+  .infoSeg p{
+	width: 40vw;
+	height: 10vw;
+}
   
   .infoSeg img{
 	height: 30vw;
+  }
+  
+  .footer{
+	margin-top: 35vh;
+	font-size: 5vw;
+  }
+  
+  .footer p{
+	font-size: 10vh;
   }
 }
