@@ -70,6 +70,7 @@ svg{
 
 .infoSeg p{
 	height: 2vw;
+	margin-right: 1.5vw;
 }
 
 .infoSeg img{
@@ -208,3 +209,4 @@ path{
 	overflow: hidden;
   }
 }
+
