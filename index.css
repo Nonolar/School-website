@@ -17,6 +17,8 @@ svg{
 	position: sticky;
 	
 	top: 25px;
+	
+	z-index: 1;
 }
 
 .bigText{
@@ -37,13 +39,15 @@ svg{
 }
 
 .black{
-	position: static;
+	position: relative;
 	margin-top: -2vw;
-	background-color: black;
+	background-color: #000000;
 	
 	color: #ffffff;
 	
-	padding: 1vw;
+	
+	z-index: 2;
+
 }
 
 .infoSeg{
@@ -55,6 +59,8 @@ svg{
 	justify-content: space-between;
 	align-items: center;
 	vertical-align: middle;
+	
+	margin-top: 25vw;
 }
 
 .infoSeg p{
@@ -118,4 +124,37 @@ svg{
 
 path{
 	fill: #000000;
+}
+
+@media (max-aspect-ratio: 3/2) {
+  .flip{
+	width: 75vw;
+	height: auto;
+  }
+  
+  .header{
+	top: 60vw;
+  }
+  
+  .black{
+	top: 60vw;
+  }
+  
+  .TextCon{
+	top: 50vw;
+  }
+  
+  .buy{
+	font-size: 5vw;
+	width: 35vw;
+	height: 10vw;
+  }
+  
+  .infoSeg{
+	font-size: 2vw;
+  }
+  
+  .infoSeg img{
+	height: 30vw;
+  }
 }
