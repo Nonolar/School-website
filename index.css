@@ -1,0 +1,121 @@
+body{
+	
+	display: inline;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin:0px;
+	
+
+	background-color: #ff8200;
+}
+
+svg{
+	right: 0px;
+}
+
+.TextCon{
+	position: sticky;
+	
+	top: 25px;
+}
+
+.bigText{
+	top: 1vw;
+	left: 0.5vw;
+	font-size: 6.5vw;
+	position: static;
+}
+
+.header{
+	
+	display: block;
+	
+	position:relative;
+	line-height: 0;
+	
+	margin-bottom: 0%;
+}
+
+.black{
+	position: static;
+	margin-top: -2vw;
+	background-color: black;
+	
+	color: #ffffff;
+	
+	padding: 1vw;
+}
+
+.infoSeg{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 2vw;
+	
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.infoSeg p{
+	height: 2vw;
+}
+
+.infoSeg img{
+	margin: 0.5vw;
+	
+	height: 25vw;
+	width: auto;
+}
+
+.buy{
+	position: absolute;
+	top: 11vw;
+	left: 2vw;
+	font-size: 3.5vw;
+	size: 10vw;
+	z-index: 2;
+	
+	border-radius: 4vw;
+	border-style: none;
+	
+	width: 25vw;
+	height: 10vw;
+	
+	background-color: #ff8200;
+}
+
+.buy:hover{
+	background-color: #ff9210;
+}
+
+.buy:active{
+	background-color: #df6200;
+	border-style: inset;
+}
+
+.divider{
+	display: block;
+	
+	position: relative;
+	top:0.25vw;
+	right: 0vw;
+	color: #ff8200;
+	width: 100%;
+	height: 500%;
+	
+	z-index: 1;
+}
+
+.flip {
+	position: absolute;
+	right: 5vw;
+	top: 2vw;
+	bottom: 10vw;
+	width: 45vw;
+	height: auto;
+}
+
+path{
+	fill: #000000;
+}
